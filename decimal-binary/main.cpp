@@ -16,7 +16,8 @@ int binaryToDecimalMethod1(int n) {
 }
 
 int main() {
-    int binaryNo = 10111;
+    int binaryNo;
+    cin >> binaryNo;
     cout << binaryToDecimalMethod1(binaryNo) << endl;
     return 0;
 }
