@@ -9,8 +9,17 @@ int main() {
     cin >> height;
 
     for (int row = 0; row < height; row++) {
-        for (int col = 0; col < row + 1; col++) {
-            cout << "*";
+        int totalCol = row + 1;
+        for (int col = 0; col < totalCol; col++) {
+            if(row == 0 || row == 1 || row == height - 1) {
+                cout << "* ";
+            } else {
+                if (col == 0 || col == totalCol -1) {
+                    cout << "* ";
+                } else {
+                    cout << "  ";
+                }
+            }
         }
 
         cout << endl;
