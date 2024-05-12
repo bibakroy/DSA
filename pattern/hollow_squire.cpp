@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    // hollow ractangle
+    // hollow squire
     int side;
     cout << "enter side of squire" << endl;
     cin >> side;
